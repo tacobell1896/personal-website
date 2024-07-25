@@ -10,10 +10,10 @@ const links = [
   { name: "Home", href: "/" },
   {
     name: "Achievements",
-    href: "/main/achievements",
+    href: "/achievements",
   },
-  { name: "Links", href: "/main/links" },
-  { name: "Portfolio", href: "/main/portfolio" },
+  { name: "Links", href: "/links" },
+  { name: "Portfolio", href: "/portfolio" },
 ];
 
 export default function NavLinks() {
@@ -25,14 +25,11 @@ export default function NavLinks() {
           <Link
             key={link.name}
             href={link.href}
-            className={clsx(
-              "flex   items-center justify-between flex-wrap gap-2 rounded-md p-3 text-sm font-medium hover:underline",
-              {
-                underline: pathname === link.href,
-              },
-            )}
+            className={clsx("p-5 m-5 font-medium hover:underline", {
+              underline: pathname === link.href,
+            })}
           >
-            <p className="hidden md:block">{link.name}</p>
+            {link.name}
           </Link>
         );
       })}

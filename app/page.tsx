@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main>
+    <main className="">
       <figure>
         <Image
           src="/images/home.jpg"
@@ -11,9 +11,9 @@ export default function Home() {
           height={1000}
         />
       </figure>
-      <article>
-        <h2>Who Am I?</h2>
-        <p>
+      <article className="m-auto">
+        <h1 className="text-lg m-5">Who Am I?</h1>
+        <p className="text-sm m-5">
           My name is Turner Bell, and I am a software and web developer. I have
           worked with computer programming languages, such as C#, VBA, ASP.NET,
           Android, HTML, CSS, XML, Java, JavaScript, SQL Server and PHP. I have
@@ -22,7 +22,7 @@ export default function Home() {
           in using software applications, such as Word, Excel, PowerPoint,
           G-Suite Apps, Google Docs, Microsoft Access and Adobe Photoshop.
         </p>
-        <p>
+        <p className="text-sm m-5">
           Growing up, I have always been interested in computers and how they
           worked. Learning programming in high school made me consider
           development as a career. I pride myself in my passion in technology,
@@ -31,7 +31,7 @@ export default function Home() {
           applications based on recent trends to create the most simple and
           accessible application for users.
         </p>
-        <p>
+        <p className="text-center m-5">
           <i>
             The world of technology is always changing, and I aspire to be a
             part of that.

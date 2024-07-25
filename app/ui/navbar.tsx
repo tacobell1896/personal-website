@@ -3,8 +3,8 @@ import NavLinks from "./nav-links";
 
 export default function NavBar() {
   return (
-    <header>
-      <Image unoptimized src="/logo.gif" alt="logo" width={400} height={400} />
+    <header className="flex-row justify-around flex-nowrap w-full">
+      <Image unoptimized src="/logo.gif" alt="logo" width={200} height={100} />
       <NavLinks />
     </header>
   );

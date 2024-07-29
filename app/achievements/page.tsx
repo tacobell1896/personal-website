@@ -6,7 +6,7 @@ export default function Achievements() {
         <Image
           src="/images/achievements.jpg"
           alt="Achivements"
-          width={1000}
+          width={2000}
           height={1000}
         />
       </figure>

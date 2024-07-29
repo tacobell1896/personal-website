@@ -7,7 +7,7 @@ export default function Home() {
         <Image
           src="/images/home.jpg"
           alt="Home Page Picture"
-          width={1000}
+          width={2000}
           height={1000}
         />
       </figure>

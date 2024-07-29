@@ -7,7 +7,7 @@ export default function Portfolio() {
         <Image
           src="/images/portfolio.png"
           alt="Portfolio"
-          width={1000}
+          width={2000}
           height={1000}
         />
         <h1 className="text-lg m-5">Portfolio</h1>

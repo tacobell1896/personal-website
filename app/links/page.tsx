@@ -3,7 +3,7 @@ export default function Links() {
   return (
     <main>
       <figure>
-        <Image src="/images/links.jpg" alt="Links" width={1000} height={1000} />
+        <Image src="/images/links.jpg" alt="Links" width={2000} height={1000} />
       </figure>
 
       <article className="m-auto">

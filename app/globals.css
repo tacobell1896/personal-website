@@ -16,3 +16,9 @@
         text-wrap: balance;
     }
 }
+.broider {
+    border-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAYAAADFw8lbAAAAAXNSR0IArs4c6QAAAONJREFUWEftmDEOhSAQRKX3Gjbe/yw2XsNeYyIWmM1sRhA3md8iu4/nyFfSEOSXgnAONOi2LjuzyHGaqZ7UpBPwt6AlGGuGreM2yjYo48HWgaC5MGsQ5dhbPz6od6XImHcc9TONooleAO91qN8DFE3wNmavs/oLVEZ7Z9P6Y8j7951RgZJhLcXJKCnyniajbw3qqa9tUEZl9DKg7al2FEyjuVHvlxO94be+5bl+3G+mXllFz0bc7/qvjSKTZkbDgKIVonG0C1Q7dkQgaLw5qAVgGeh2NP57UGSm1Ukzikg5nqKAHssTQDoR7Zg/AAAAAElFTkSuQmCC")
+        14 / 14px / 0 round;
+    border-width: 14px;
+    border-style: solid;
+}

@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="{inter.className} m-auto w-2/3">
         <NavBar />
-        <main className="border rounded-md">{children}</main>
+        <main className="border rounded-md broider">{children}</main>
       </body>
     </html>
   );

@@ -14,6 +14,7 @@ const links = [
   },
   { name: "Links", href: "/links" },
   { name: "Portfolio", href: "/portfolio" },
+  { name: "Blog", href: "/blog" },
 ];
 
 export default function NavLinks() {
@@ -25,7 +26,7 @@ export default function NavLinks() {
           <Link
             key={link.name}
             href={link.href}
-            className={clsx("p-5 m-5 font-medium hover:underline", {
+            className={clsx("p-5 m-5 font-medium hover:text-white", {
               underline: pathname === link.href,
             })}
           >

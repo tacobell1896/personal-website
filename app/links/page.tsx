@@ -31,7 +31,7 @@ export default function Links() {
             </a>
           </li>
         </ul>
-        /* {TODO: make favorite websites dynamic}
+        {/*  TODO: make favorite websites dynamic
 
         <h2 className="m-5">Here are some links to my favorite websites:</h2>
         <ul>
@@ -39,7 +39,7 @@ export default function Links() {
             <a href="">Google</a>
           </li>
         </ul>
-        */
+        */}
       </article>
     </main>
   );

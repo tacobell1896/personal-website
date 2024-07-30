@@ -8,6 +8,9 @@ export default function Links() {
 
       <article className="m-auto">
         <h1 className="text-lg m-5">Links</h1>
+        <h2 className="m-5">
+          Here are some links to my social media accounts:
+        </h2>
         <ul className="text-sm pl-5 pb-5">
           <li>
             <a href="https://www.linkedin.com/in/turner-bell-7a66b887">
@@ -21,6 +24,17 @@ export default function Links() {
             <a href="https://twitter.com/infosectacobell">
               Twitter, all thoughts are my own
             </a>
+          </li>
+          <li>
+            <a href="https://discord.gg/btmHxSpxRu">
+              Discord, come chat with me!
+            </a>
+          </li>
+        </ul>
+        <h2 className="m-5">Here are some links to my favorite websites:</h2>
+        <ul>
+          <li>
+            <a href="">Google</a>
           </li>
         </ul>
       </article>

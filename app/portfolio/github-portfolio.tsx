@@ -18,7 +18,7 @@ export default async function GithubPortfolio() {
           name: string | null | undefined;
           description: string | null | undefined;
         }) => (
-          <li key={repo.id} className="rounded-md border m-5 p-5">
+          <li key={repo.id} className="round-pixel m-5 p-5">
             Repo: <a href={repo.html_url}>{repo.name}</a>
             {repo.description ? (
               <p>Description: {repo.description}</p>

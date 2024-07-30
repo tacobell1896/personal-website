@@ -14,7 +14,6 @@ const links = [
   },
   { name: "Links", href: "/links" },
   { name: "Portfolio", href: "/portfolio" },
-  { name: "Blog", href: "/blog" },
 ];
 
 export default function NavLinks() {

@@ -30,9 +30,6 @@ export default function Achievements() {
             Placed First as a team at Ohio Collegiate Cyber Defense Competition
             (Linux Administator for Team at Cuyahoga Community College)
           </li>
-          <li>
-            Escaped a high control religious group and started a new life.
-          </li>
         </ul>
       </article>
     </main>

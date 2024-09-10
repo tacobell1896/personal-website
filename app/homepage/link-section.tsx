@@ -1,14 +1,18 @@
 import { Key } from "react";
-import links from ".links.json";
+import { links } from "./links";
 
 export default function LinkSection() {
+  const linkList = links;
   return (
     <section className="flex flex-col items-center justify-center">
-      <h1 className="text-lg">Links</h1>
       <ul className="flex flex-col items-center justify-center">
-        <li className="text-sm">
-          <a href="{link.url}">{link.name}</a>
-        </li>
+        {linkList?.map((link: { name: string; url: string }, index: Key) => {
+          return (
+            <li key={index} className="text-sm">
+              <a href={link.url}>{link.name}</a>
+            </li>
+          );
+        })}
       </ul>
     </section>
   );

@@ -13,7 +13,7 @@ const schema = z.object({
   published: z.boolean(),
 });
 
-export default async function createPost(formData: FormData) {
+export async function createPost(formData: FormData) {
   const { id, authorId, title, content, published } = schema.parse(
     Object.fromEntries(formData),
   );
@@ -25,4 +25,23 @@ export default async function createPost(formData: FormData) {
   `;
 
   revalidatePath(`/posts/${rows[0].id}`);
+}
+
+export async function deletePost(id: number) {
+  await sql`DELETE FROM posts WHERE id = ${id}`;
+  redirect("/posts");
+}
+
+export async function updatePost(id: number, formData: FormData) {
+  const { title, content, published } = schema.parse(
+    Object.fromEntries(formData),
+  );
+
+  await sql`
+    UPDATE posts
+    SET title = ${title}, content = ${content}, published = ${published}
+    WHERE id = ${id};
+  `;
+
+  revalidatePath(`/posts/${id}`);
 }

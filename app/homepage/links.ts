@@ -16,4 +16,5 @@ export const links = [
     category: "Reference",
   },
   { name: "GitHub", url: "https://github.com", category: "Development" },
+  { name: "Bluesky", url: "https://bsky.app/", category: "Bored" },
 ];

@@ -1,3 +1,5 @@
+'use client'
 export default function Clock() {
-  return <span>{new Date().toLocaleTimeString()}.</span>;
+  const currentTime = new Date();
+  return <span>{currentTime.toLocaleTimeString()}.</span>;
 }

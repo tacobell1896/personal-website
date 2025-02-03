@@ -7,9 +7,6 @@ export default function Homepage() {
       <h2 className="text-lg text-center">
         The time is <Clock />
       </h2>
-      <form action="https://google.com/search" method="get">
-        <input className="w-full text-center rounded border-white bg-transparent " type="text" name="q" placeholder="Search for something..." />
-      </form>
       <LinkSection />
     </main>
   );
